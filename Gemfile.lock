@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    weirdy (0.0.1)
-      rails
+    weirdy (0.0.2)
       will_paginate (>= 3.0.0)
 
 GEM
@@ -140,9 +139,9 @@ DEPENDENCIES
   delayed_job_active_record
   jquery-rails
   pg
+  rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   therubyracer
   thin
   uglifier (>= 1.0.3)
   weirdy!
-  will_paginate
